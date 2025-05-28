@@ -1,8 +1,82 @@
-*{
-    font-size: 60px;
-    color: transparent;
-
+table {
+    border-collapse: collapse;
 }
+
+table td, table th {
+    padding: 15px;
+}
+
 td{
     border: 5px black solid;
+    padding: 10px;
+}
+
+.table-tr1 .td-1{
+    padding-top: 50px;
+}
+
+.table-tr1 .td-2{
+    padding-right: 250px;
+}
+
+.table-tr1 .td-3{
+    background-color: rgb(243, 228, 22);
+    width: 170px;
+}
+
+.table-tr1 .td-4{
+    padding: 15px;
+}
+
+.table-tr2{
+    height: 150px;
+}
+
+.table-tr2 .td-1{
+    padding-left: 60px;
+}
+
+.table-tr2 .td-2{
+    background-color: red;
+}
+
+.table-tr2 .td-3{
+    background-color: rgb(243, 228, 22);
+}
+
+.table-tr3{
+    height: 150px;
+}
+
+.table-tr4 .td-1{
+    background-color: black;
+    padding-left: 30px;
+}
+
+.table-tr4 .td-2{
+    height: 50px;
+}
+
+.table-tr5 .td-1{
+    background-color: rgb(243, 228, 22);
+}
+
+.table-tr5 .td-2{
+    height: 50px;
+}
+
+.table-tr5 .td-3{
+    background-color: blue;
+}
+
+.table-tr5 .td-4{
+    background-color: red;
+}
+
+.table-tr6 .td-2{
+    background-color: black;
+}
+
+.table-tr7 .td-1{
+    padding-bottom: 15px;
 }
